@@ -121,31 +121,31 @@
 .list-tasks-input.task {
   width: 226px;
 }
-#img-delete {
+.img-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-#img-delete:hover {
+.img-delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks.list-tasks-label {
+.list-tasks#completed-tasks .list-tasks-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-#completed-tasks.list-tasks-item.list-tasks-input.task {
+.list-tasks-item .list-tasks-input.task {
   display: none;
 }
 
-.editMode.list-tasks-input.task {
+.list-tasks-item.editMode .list-tasks-input.task {
   display: inline-block;
   width: 224px;
 }
 
-.editMode.list-tasks-label {
+.list-tasks-item.editMode .list-tasks-label {
   display: none;
 }
